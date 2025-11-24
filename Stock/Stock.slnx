@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="../Stock.Test/Stock.Test.csproj" Id="3dbaafab-9cf6-4a2c-ad23-959ce44deb73" />
   <Project Path="../StockApp/StockApp.csproj" />
   <Project Path="Stock.csproj" />
 </Solution>
