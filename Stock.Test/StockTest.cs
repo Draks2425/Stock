@@ -13,13 +13,13 @@ namespace Stock.Test
             // Assert
             var stock = new Stock();
             stock.AddProduct(new Product("Mouse", 670.99m));
-            stock.AddProduct(new Product("keyboard", 1250.99m));
+            stock.AddProduct(new Product("Keyboard", 1250.99m));
             stock.AddProduct(new Product("PC", 7999.99m));
 
             var found = stock.FindProductById(2);
 
             Assert.NotNull(found);
-            Assert.Equal("Mouse", found.Name);
+            Assert.Equal("Keyboard", found.Name);
         }
 
         [Fact]
